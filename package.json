@@ -1,27 +1,34 @@
 {
-	"name": "bless-brunch",
-	"version": "1.6.1",
-	"description": "Adds bless css support to brunch.",
-	"author": "Via Response Technologies, Inc. (http://viaresponse.com)",
-	"license": "MIT",
-	"repository": {
-		"type": "git",
-		"url": "https://github.com/ThomasConner/bless-brunch.git"
-	},
-	"keywords": [
-		"bless-brunch",
-		"bless"
-	],
-	"main": "./lib/index",
-	"scripts": {
-		"prepublish": "rm -rf lib && coffee --bare --output lib/ src/"
-	},
-	"dependencies": {
-		"bless": "3.0.2",
-		"lodash": "1.2.1"
-	},
-	"devDependencies": {
-		"mocha": "1.10.0",
-		"chai": "1.6.0"
-	}
+  "name": "bless-brunch",
+  "version": "1.6.1",
+  "description": "Adds bless css support to brunch.",
+  "author": "Via Response Technologies, Inc. (http://viaresponse.com)",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/BlessCSS/bless-brunch.git"
+  },
+  "keywords": [
+    "bless-brunch",
+    "bless"
+  ],
+  "main": "./lib/index",
+  "scripts": {
+    "prepublish": "rm -rf lib && coffee --bare --output lib/ src/"
+  },
+  "dependencies": {
+    "bless": "3.0.2",
+    "lodash": "1.2.1"
+  },
+  "devDependencies": {
+    "mocha": "1.10.0",
+    "chai": "1.6.0"
+  },
+  "bugs": {
+    "url": "https://github.com/BlessCSS/bless-brunch/issues"
+  },
+  "homepage": "https://github.com/BlessCSS/bless-brunch#readme",
+  "directories": {
+    "test": "test"
+  }
 }
